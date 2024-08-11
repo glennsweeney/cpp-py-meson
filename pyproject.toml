@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "mesonpy"
+requires = ["meson-python"]
+
+[project]
+name = "exampleproject"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.meson-python.args]
+setup = ['-Dpython=enabled', '-Db_lto=true']
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
+
+[tool.ruff.format]
+quote-style = "double"

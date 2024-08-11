@@ -1,0 +1,7 @@
+# Meson subprojects
+**
+!.gitignore
+!.clang-tidy
+!*.wrap
+!packagefiles
+!packagefiles/**

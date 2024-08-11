@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "mesonbuild.mesonbuild",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-vscode.cpptools",
+    "njpwerner.autodocstring",
+    "stkb.rewrap",
+    "tamasfe.even-better-toml",
+    "vscode-icons-team.vscode-icons",
+    "yzhang.markdown-all-in-one"
+  ]
+}
