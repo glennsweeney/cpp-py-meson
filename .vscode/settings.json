@@ -1,23 +1,24 @@
 {
-  "[markdown]": {
-    "editor.rulers": [80]
-  },
+  "editor.rulers": [88],
   "[meson]": {
-    "editor.defaultFormatter": "mesonbuild.mesonbuild"
+    "editor.defaultFormatter": "mesonbuild.mesonbuild",
+    "editor.inlayHints.enabled": "off"
   },
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
     },
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.rulers": [88]
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "autoDocstring.docstringFormat": "numpy",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
   "markdownlint.config": {
-    "MD013": true
+    "MD013": {
+      "line_length": 88,
+      "tables": false
+    }
   },
   "mesonbuild.configureOnOpen": false,
   "notebook.codeActionsOnSave": {
@@ -30,5 +31,6 @@
     "tree.inactiveIndentGuidesStroke": "#555500",
     "tree.indentGuidesStroke": "#dddd00"
   },
-  "workbench.tree.indent": 16
+  "workbench.tree.indent": 16,
+  "mesonbuild.downloadLanguageServer": true
 }

@@ -3,7 +3,7 @@ build-backend = "mesonpy"
 requires = ["meson-python"]
 
 [project]
-name = "exampleproject"
+name = "photonforge"
 version = "0.0.1"
 dependencies = [
     "numpy",
@@ -17,6 +17,7 @@ setup = ['-Dpython=enabled', '-Db_lto=true']
 
 [tool.ruff]
 extend-include = ["*.ipynb"]
+line-length = 88
 
 [tool.ruff.format]
 quote-style = "double"
